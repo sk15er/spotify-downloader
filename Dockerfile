@@ -5,7 +5,7 @@ LABEL maintainer="xnetcat (Jakub)"
 # Install dependencies
 RUN apk add --no-cache \
     ca-certificates \
-    ffmpeg \
+    ffmpeg |
     openssl \
     aria2 \
     g++ \
